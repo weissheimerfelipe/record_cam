@@ -59,9 +59,9 @@ def gravar_video():
         duracao = 15  # segundos
         
         # 2. Caminho de rede - MODIFIQUE AQUI COM SEU CAMINHO CORRETO
-        servidor = "192.168.200.8"
-        compartilhamento = "compartilhado$"
-        pasta = "REcording"
+        servidor = "endereco_do_servidor"
+        compartilhamento = "nome_do_compartilhamento"
+        pasta = "pasta_de_video"
         caminho_rede = fr"\\{servidor}\{compartilhamento}\{pasta}"
         
         # 3. Verificação do acesso
